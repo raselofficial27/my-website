@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rasel Website</title>
+  <title>Rasel Earning Site</title>
 
   <style>
     body {
-      background: black;
-      color: white;
-      text-align: center;
       font-family: Arial;
+      text-align: center;
+      background: #111;
+      color: white;
     }
 
-    h1 {
-      color: yellow;
+    .box {
+      background: #222;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
     }
 
     button {
-      padding: 12px 20px;
-      background: red;
+      padding: 10px;
+      background: green;
       color: white;
       border: none;
       border-radius: 6px;
-      font-size: 16px;
+    }
+
+    .balance {
+      font-size: 30px;
+      color: gold;
     }
   </style>
-
 </head>
 
 <body>
 
-<h1>My First Website</h1>
-<p>Hello, I am learning website</p>
+<h1>💰 Rasel Earning Website</h1>
 
-<h1>Welcome Rasel</h1>
-<p>My earning website</p>
+<div class="box">
+  <p>Your Balance</p>
+  <div class="balance">0৳</div>
+</div>
 
-<a href="https://google.com" target="_blank">
-  <button>Start Now</button>
-</a>
+<div class="box">
+  <h3>Task 1</h3>
+  <p>Click & Learn</p>
+  <button onclick="alert('Task Completed!')">Start</button>
+</div>
+
+<div class="box">
+  <h3>Task 2</h3>
+  <p>Visit Page</p>
+  <button onclick="alert('Visited!')">Start</button>
+</div>
 
 </body>
 </html>
-<a href="https://wa.me/8801XXXXXXXXX" target="_blank">
-  <button>Order on WhatsApp</button>
-</a>
